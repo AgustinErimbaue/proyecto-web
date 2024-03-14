@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.index-body{
+    background-image: url("../assets/image/_904c0e62-b95b-4c1c-a8d5-23f204dcd511.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(105, 55, 55);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-style:italic;
+    
+}
+.routine-body{
+    background-image: url("../assets/image/Rutina.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(105, 55, 55);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-style:italic;
+}
+
+.portfolio-body{
+    background-image: url("../assets/image/Rutina.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(105, 55, 55);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-style:italic;
+}
+
+.contacto-body{
+    background-image: url("../assets/image/Rutina.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(105, 55, 55);
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:600;
+    font-style:italic;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    padding-right: 14px;
+}
+
+a {
+    color: rgb(168, 220, 246)
+}
+
+li {
+    padding-left: 14px;
+}
+
+img {
+    height: 90px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.index-image {
+    width: 25%;
+    height: 50%;
+}
+
+.text {
+    width: 40%;
+
+}
+
+h3{
+    padding-top: 40px;
+    font-size: 49px;
+}
+
+.description{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.workout{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.routine-image{
+    width: 25%;
+    height: 50%;
+}
+
+.routine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    margin: 20%;
+}
+
+main{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 20px;
+    height: 40px;
+}
